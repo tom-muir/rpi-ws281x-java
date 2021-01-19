@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]; then
     echo "Please provide the Raspberry PI location and username as first parameter."
-    echo "For example: $0 pi@192.168.1.111"
+    echo "For example: $0 pi@192.168.1.194"
     exit
 fi
 

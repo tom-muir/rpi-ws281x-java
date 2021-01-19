@@ -64,6 +64,7 @@ public interface LedStrip {
     /**
      * Get the color of a pixel
      *
+     * @param pixel the pixel index
      * @return The color of the pixel as a long
      */
     long getPixel( int pixel );
